@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(29, 29, 129);
+    font-family: "EB Garamond", serif;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+#game-result {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 30%;
+  padding: 80px;
+  margin: 0 auto;
+}
+
+.btn {
+  color: rgb(253, 255, 240);
+  border: 1px solid rgba(255, 253, 240, 0.699);
+  margin: 20px;
+  border-radius: 50%;
+  padding: 15px 20px;
+}
+
+.btn-fizz ,  .btn-buzz{ 
+    border: 2px dotted;
+    color: rgb(255, 255, 150);
+}
+
+
+.btn-fizzbuzz{
+    color: rgb(255, 255, 145);
+    border: dotted 3px rgb(255, 255, 42);
+    padding: 15px 10px;
+}
