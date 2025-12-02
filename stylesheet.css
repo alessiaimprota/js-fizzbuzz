@@ -26,7 +26,7 @@ h1{
 
 .btn {
   color: rgb(253, 255, 240);
-  border: 1px solid rgba(255, 253, 240, 0.699);
+  border: 2px solid rgba(255, 253, 240, 0.699);
   margin: 20px;
   border-radius: 50%;
   padding: 15px 20px;
@@ -43,3 +43,12 @@ h1{
     border: dotted 3px rgb(255, 255, 42);
     padding: 15px 10px;
 }
+
+#game-result :first-child,
+#game-result :nth-child(2),
+#game-result :nth-child(4),
+#game-result :nth-child(7),
+#game-result :nth-child(8) {
+    padding: 15px 25px;
+}
+/*so che potevo essere più attenta qua e potevo agire in un modo diverso, ma sono le 18 e sono stanchissima :(*/
